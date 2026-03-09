@@ -94,7 +94,89 @@ text-decoration:none;
 font-weight:500;
 margin-right:10px;
 }
+.docs-title{
+margin-top:40px;
+}
 
+.docs-description{
+max-width:750px;
+margin-bottom:25px;
+color:#555;
+}
+
+.docs-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+margin-top:20px;
+}
+
+.doc-card{
+border:1px solid #e6e6e6;
+border-radius:10px;
+padding:25px;
+background:white;
+box-shadow:0 4px 14px rgba(0,0,0,0.06);
+}
+
+.doc-header{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:15px;
+}
+
+.doc-icon{
+font-size:24px;
+color:#635bff;
+}
+
+.doc-meta{
+font-size:14px;
+color:#777;
+margin:0;
+}
+
+.doc-actions{
+margin-bottom:15px;
+}
+
+.btn-view,
+.btn-download{
+display:inline-block;
+padding:8px 14px;
+border-radius:6px;
+text-decoration:none;
+font-weight:500;
+margin-right:10px;
+}
+
+.btn-view{
+background:#635bff;
+color:white;
+}
+
+.btn-download{
+border:1px solid #ddd;
+color:#333;
+}
+
+.doc-preview{
+width:100%;
+height:420px;
+border:1px solid #eee;
+border-radius:6px;
+}
+
+/* Mobile adaptation */
+
+@media (max-width:900px){
+
+.docs-grid{
+grid-template-columns:1fr;
+}
+
+}
 .btn-view{
 background:#635bff;
 color:white;
@@ -479,19 +561,26 @@ View documentation →
 <h4 class="docs-title">User Documentation</h4>
 
 <p class="docs-description">
-This guide demonstrates a step-by-step workflow for end users.  
-The PDF preview shows the structure of the documentation, while the
-downloadable DOCX version contains animated GIFs that visually explain each step of the process.
+These guides demonstrate step-by-step workflows for end users. 
+The first document includes a PDF preview and a downloadable DOCX version
+that contains animated GIFs showing each step of the process.
+The second document is provided as a PDF guide.
 </p>
+
+<div class="docs-grid">
+
+<!-- DOCUMENT 1 -->
 
 <div class="doc-card">
 
 <div class="doc-header">
 <i class="fas fa-book doc-icon"></i>
+
 <div>
-<h5>Product Documentation Sample 1</h5>
-<p class="doc-meta">Format: PDF preview • DOCX with GIF instructions</p>
+<h5>Product Documentation Sample</h5>
+<p class="doc-meta">PDF preview • DOCX with GIF instructions</p>
 </div>
+
 </div>
 
 <div class="doc-actions">
@@ -514,7 +603,10 @@ download>
 src="docs/Product-Documentation-Sample.pdf"
 class="doc-preview">
 </iframe>
-  
+
+</div>
+
+
 <!-- DOCUMENT 2 -->
 
 <div class="doc-card">
