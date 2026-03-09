@@ -124,7 +124,23 @@ position:fixed;
 width:220px;
 padding:30px;
 }
+.docs-preview-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:25px;
+margin-top:20px;
+}
 
+.doc-preview iframe{
+width:100%;
+height:300px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.doc-preview h6{
+margin-bottom:10px;
+}
 .sidebar a{
 color:white;
 display:block;
@@ -390,13 +406,39 @@ View documentation →
 Product manuals, onboarding guides, and troubleshooting documentation for end users.
 </p>
 
-<iframe 
+<div class="docs-preview-grid">
+
+<div class="doc-preview">
+<h6>Product Documentation Guide</h6>
+
+<iframe
 src="https://view.officeapps.live.com/op/embed.aspx?src=https://raw.githubusercontent.com/lesyasirotko63/Technical-Writer-Portfolio/main/docs/Product-Documentation-Sample.doc"
-width="100%" 
-height="600"
 frameborder="0">
 </iframe>
 
+</div>
+
+<div class="doc-preview">
+<h6>Second Guide</h6>
+
+<iframe
+src="PASTE_SECOND_DOC_LINK_HERE"
+frameborder="0">
+</iframe>
+
+</div>
+
+<div class="doc-preview">
+<h6>Third Guide</h6>
+
+<iframe
+src="PASTE_THIRD_DOC_LINK_HERE"
+frameborder="0">
+</iframe>
+
+</div>
+
+</div>
 <h4>Marketing Articles</h4>
 <p>
 Articles and content that highlight product features, use cases, and benefits to help communicate value to potential customers and partners.
