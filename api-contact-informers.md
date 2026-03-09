@@ -6,16 +6,17 @@ Retrieves information about contact informers and their total Assets Under Manag
 
 ## Table of Contents
 
-1. [Endpoint](##endpoint-GET-/v2/informers/aum)
+1. [Endpoint GET](##endpoint-GET-/v2/informers/aum)
 2. [Authentication](##authentication)
 3. [Query Parameters](##query-parameters)
 4. [Request Example GET](##request-example-GET)
 5. [Response Fields](##response-fields)
 6. [Create Informer](##create-informer)
-7. [Request Example POST](##request-example-POST)
-8. [Successful Response](##successful-response)
-9. [Error Handling](##error-handling)
-10. [Notes](##notes)
+7. [Endpoint POST](##endpoint-POST-/v2/informers/aum)
+8. [Request Example POST](##request-example-POST)
+9. [Successful Response](##successful-response)
+10. [Error Handling](##error-handling)
+11. [Notes](##notes)
 
 ---
 
@@ -76,11 +77,9 @@ Successful Response
 
 ---
 
-## Create Informer
-
-Creates a new informer associated with a contact.
-
-### Endpoint POST /v2/informers
+## Endpoint POST /v2/informers
+Creates a new informer associated with a contact.  
+This endpoint stores informer details such as the portfolio name, assets under management (AUM), and currency.
 
 ---
 
