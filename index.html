@@ -10,8 +10,69 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 <style>
-  
-.api-header{
+
+  /* SECTION SPACING */
+
+.section {
+  padding: 35px 0;
+}
+
+/* MAIN HEADINGS */
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* SUBSECTIONS (API Documentation, Developer Guides, etc.) */
+
+.section h4 {
+  margin-top: 35px;   /* увеличивает расстояние между секциями */
+  margin-bottom: 10px;
+}
+
+/* TEXT SPACING */
+
+.section p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+/* DOCUMENTATION CARDS */
+
+.doc-card {
+  margin-bottom: 16px;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+/* API CARD */
+
+.api-card {
+  margin-bottom: 20px;
+  padding: 18px;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+}
+
+/* API ENDPOINT STYLE */
+
+.api-endpoint {
+  background: #f6f8fa;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  margin: 10px 0;
+}
+
+/* LINKS */
+
+.api-button {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+  .api-header{
   display:flex;
   align-items:center;
   margin-bottom:10px;
@@ -32,39 +93,15 @@
   font-size:14px;
 }
 
-.api-card{
-  border:1px solid #e3e3e3;
-  padding:18px;
-  border-radius:6px;
-  margin-top:15px;
-  max-width:720px;
-}
-.api-card {
-  border: 1px solid #e5e5e5;
-  padding: 18px;
-  border-radius: 6px;
-  margin-top: 15px;
-  max-width: 700px;
-}
-
-.api-endpoint {
-  background: #f6f8fa;
-  padding: 10px;
-  font-family: monospace;
-  border-radius: 5px;
-  margin: 10px 0;
-}
-
-.api-button {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0366d6;
-  text-decoration: none;
-  font-weight: 500;
-}
-
 .api-button:hover {
   text-decoration: underline;
+}
+
+/* CODE BLOCK SPACING */
+
+pre {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 body{
@@ -109,14 +146,6 @@ padding:30px;
   margin: 5px 6px 5px 0;
   border-radius: 20px;
   font-size: 14px;
-}
-         
-.doc-card {
-  border: 1px solid #e5e5e5;
-  padding: 16px;
-  margin-bottom: 15px;
-  border-radius: 6px;
-  transition: box-shadow 0.2s ease;
 }
 
 .doc-card:hover {
