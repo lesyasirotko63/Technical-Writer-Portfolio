@@ -21,7 +21,7 @@ Retrieves information about contact informers and their total Assets Under Manag
 
 ## Endpoint GET /v2/informers/aum
 
-Returns a list of contact informers and their associated AUM data.
+Returns a list of contact informers and their total Assets Under Management (AUM). The endpoint retrieves portfolio-level information associated with a specific contact.
 
 ---
 
