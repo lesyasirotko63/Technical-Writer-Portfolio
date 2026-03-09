@@ -6,25 +6,16 @@ Retrieves information about contact informers and their total Assets Under Manag
 
 ## Table of Contents
 
-# Contact Informers API
-
-Retrieves information about contact informers and their total Assets Under Management (AUM).
-
----
-
-## Table of Contents
-
-1. [Endpoint GET](##endpoint-GET-/v2/informers/aum)
-2. [Authentication](##authentication)
-3. [Query Parameters](##query-parameters)
-4. [Request Example GET](##request-example-GET)
-5. [Response Fields](##response-fields)
-6. [Create Informer](##create-informer)
-7. [Endpoint POST](##endpoint-POST-/v2/informers/aum)
-8. [Request Example POST](##request-example-POST)
-9. [Successful Response](##successful-response)
-10. [Error Handling](##error-handling)
-11. [Notes](##notes)
+1. [Endpoint GET](#endpoint-get-v2informersaum)
+2. [Authentication](#authentication)
+3. [Query Parameters](#query-parameters)
+4. [Request Example GET](#request-example-get)
+5. [Response Fields](#response-fields)
+6. [Create Informer](#endpoint-post-v2informers)
+7. [Request Example POST](#request-example-post)
+8. [Successful Response](#successful-response)
+9. [Error Handling](#error-handling)
+10. [Notes](#notes)
 
 ---
 
