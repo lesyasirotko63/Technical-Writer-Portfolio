@@ -11,6 +11,34 @@
 
 <style>
   
+.api-header{
+  display:flex;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.api-method{
+  background:#49cc90;
+  color:white;
+  font-weight:600;
+  padding:4px 10px;
+  border-radius:4px;
+  margin-right:10px;
+  font-size:13px;
+}
+
+.api-path{
+  font-family:monospace;
+  font-size:14px;
+}
+
+.api-card{
+  border:1px solid #e3e3e3;
+  padding:18px;
+  border-radius:6px;
+  margin-top:15px;
+  max-width:720px;
+}
 .api-card {
   border: 1px solid #e5e5e5;
   padding: 18px;
@@ -222,19 +250,17 @@ Click a document to view the full article.
 
 <div class="api-card">
 
-<strong>Contact Informers API</strong>
-
-<p>
-Retrieves information about contact informers and their total assets under management (AUM).
-</p>
-
-<div class="api-endpoint">
-GET /v2/informers/aum
+<div class="api-header">
+<span class="api-method">GET</span>
+<span class="api-path">/v2/informers/aum</span>
 </div>
 
 <p>
-Returns a list of informers associated with a contact and their portfolio value.
+Returns a list of contact informers and their total Assets Under Management (AUM).
+The endpoint retrieves portfolio-level information associated with a specific contact.
 </p>
+
+<p><strong>Example Response</strong></p>
 
 <pre><code>{
   "contactId": "12345",
@@ -251,13 +277,11 @@ Returns a list of informers associated with a contact and their portfolio value.
 <a class="api-button"
 href="https://github.com/lesyasirotko63/Technical-Writer-Portfolio/blob/main/api-contact-informers.md"
 target="_blank">
-
-View full API documentation →
-
+View full API reference →
 </a>
 
 </div>
-
+  
 <h4>Developer Guides</h4>
 <p>
 Step-by-step documentation for integrating APIs, SDKs, and infrastructure components.
