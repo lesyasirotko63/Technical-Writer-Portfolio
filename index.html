@@ -43,7 +43,39 @@ margin:10px 0;
 margin-left:240px;
 padding:40px;
 }
+.skill-tags {
+  margin-bottom: 30px;
+}
 
+.skill-tag {
+  display: inline-block;
+  background: #f1f3f5;
+  padding: 6px 12px;
+  margin: 5px 6px 5px 0;
+  border-radius: 20px;
+  font-size: 14px;
+}
+         
+.doc-card {
+  border: 1px solid #e5e5e5;
+  padding: 16px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  transition: box-shadow 0.2s ease;
+}
+
+.doc-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.doc-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.doc-link {
+  font-size: 14px;
+}
 </style>
 
 </head>
@@ -103,59 +135,113 @@ Experienced with Swagger/OpenAPI, Docusaurus, Git workflows, and modern document
 <section id="skills" class="section">
 <div class="my-auto" id="skills-content">
 
-<h2 class="mb-4">Skills</h2>
+<h2 class="mb-5">Skills</h2>
 
-<h4 class="subheading mb-3">Core Skills</h4>
-<ul>
-<li>Technical communication</li>
-<li>Information architecture</li>
-<li>Product documentation</li>
-<li>UX writing</li>
-<li>Content design</li>
-</ul>
+<h3 class="subheading mb-3">Core Skills</h3>
+<div class="skill-tags">
+<span class="skill-tag">Technical communication</span>
+<span class="skill-tag">Information architecture</span>
+<span class="skill-tag">Product documentation</span>
+<span class="skill-tag">UX writing</span>
+<span class="skill-tag">Content design</span>
+</div>
 
-<h4 class="subheading mb-3">Technical Content</h4>
-<p>
-• Implementation guides • User guides • Release notes • Technical specifications • 
-Developer documentation • API & SDK documentation • Error messages • Developer portals
-</p>
+<h3 class="subheading mb-3">Technical Content</h3>
+<div class="skill-tags">
+<span class="skill-tag">Implementation guides</span>
+<span class="skill-tag">User guides</span>
+<span class="skill-tag">Release notes</span>
+<span class="skill-tag">Technical specifications</span>
+<span class="skill-tag">Developer documentation</span>
+<span class="skill-tag">API & SDK documentation</span>
+<span class="skill-tag">Developer portals</span>
+</div>
 
-<h4 class="subheading mb-3">Documentation Tools</h4>
-<p>
-Markdown • HTML • Microsoft Office • AEM • Redocly • Confluence • WordPress
-</p>
+<h3 class="subheading mb-3">Documentation Tools</h3>
+<div class="skill-tags">
+<span class="skill-tag">Markdown</span>
+<span class="skill-tag">HTML</span>
+<span class="skill-tag">AEM</span>
+<span class="skill-tag">Redocly</span>
+<span class="skill-tag">Confluence</span>
+<span class="skill-tag">WordPress</span>
+</div>
 
-<h4 class="subheading mb-3">Development & Collaboration Tools</h4>
-<p>
-• Git • Swagger • Postman • Jira • Figma • Miro • Analytics tools
-</p>
-
-<h4 class="subheading mb-3">Community</h4>
-<p>
-• Open source documentation • Technical community management • Conference organization
-</p>
+<h3 class="subheading mb-3">Developer Tools</h3>
+<div class="skill-tags">
+<span class="skill-tag">Git</span>
+<span class="skill-tag">Swagger / OpenAPI</span>
+<span class="skill-tag">Postman</span>
+<span class="skill-tag">Jira</span>
+<span class="skill-tag">Figma</span>
+<span class="skill-tag">Miro</span>
+</div>
 
 </div>
 </section>
 
 <section id="projects" class="section">
-         <div class="my-auto" id="projects-content">
-    <h2 class="mb-5">Documentation Projects</h2>
-    <p></p><p>This page contains examples of technical content I have managed and delivered over different software/IT projects, broken down by types of content deliverables.</p>
-<p><strong>Note</strong>: Click each deliverable to read more about the context, problems, my contributions, and impact delivered through the project.</p>
-<p></p>
+
+<div class="my-auto" id="projects-content">
+
+<h2 class="mb-5">Documentation Projects</h2>
+
+<p>
+This page contains examples of technical documentation I created across software projects.
+Click a document to view the full article.
+</p>
 
 <h4>API Documentation</h4>
-<p>REST API documentation including endpoints, authentication, request and response examples.</p>
+<p>
+REST API documentation including endpoints, authentication, and request/response examples.
+</p>
 
 <h4>Developer Guides</h4>
-<p>Step-by-step documentation for integrating APIs and SDKs.</p>
+<p>
+Step-by-step documentation for integrating APIs, SDKs, and infrastructure components.
+</p>
+
+<div class="doc-card">
+
+<div class="doc-title">
+Kubernetes Quickstart Guide
+</div>
+
+<p>
+Quickstart documentation explaining how to deploy and configure an application in Kubernetes, including environment setup and first deployment steps.
+</p>
+
+<a class="doc-link" href="https://github.com/lesyasirotko63/Technical-Writer-Portfolio/blob/main/kubernetes-quickstart-doc.md" target="_blank">
+View documentation →
+</a>
+
+</div>
+
+
+<div class="doc-card">
+
+<div class="doc-title">
+Development Workflow Guide
+</div>
+
+<p>
+Developer documentation describing developmen workflow.
+</p>
+
+<a class="doc-link" href="https://github.com/lesyasirotko63/Technical-Writer-Portfolio/blob/main/development-workflow-doc.md" target="_blank">
+View documentation →
+</a>
+
+</div>
+
 
 <h4>User Documentation</h4>
-<p>Product manuals, onboarding guides, and troubleshooting documentation.</p>
-       
-    
-  </div>
+<p>
+Product manuals, onboarding guides, and troubleshooting documentation for end users.
+</p>
+
+</div>
+
 </section>
 
   <section id="education" class="section">
