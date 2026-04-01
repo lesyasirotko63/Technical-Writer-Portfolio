@@ -106,6 +106,9 @@ Content-Type: application/json
 
 ## Successful Response
 
+### 200 OK
+The request completed successfully.
+
 ```js
 {
   "id": "inf_7891",
@@ -114,17 +117,6 @@ Content-Type: application/json
   "aum": 450000,
   "currency": "USD",
   "createdAt": "2026-03-01T10:12:45Z"
-}
-```
-### 200 OK
-The request completed successfully.
-
-Example:
-
-```
-{
-  "contactId": "12345",
-  "informers": [...]
 }
 ```
 
