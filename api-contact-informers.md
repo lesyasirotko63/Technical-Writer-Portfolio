@@ -103,14 +103,6 @@ Host: api.example.com
 Authorization: Bearer {access_token}
 Content-Type: application/json
 ```
-### Request Body
-
-```js
-POST /v2/informers HTTP/1.1
-Host: api.example.com
-Authorization: Bearer {access_token}
-Content-Type: application/json
-```
 
 ## Successful Response
 
@@ -124,11 +116,6 @@ Content-Type: application/json
   "createdAt": "2026-03-01T10:12:45Z"
 }
 ```
-
-## Error Handling
-
-The API uses standard HTTP status codes to indicate success or failure.
-
 ### 200 OK
 The request completed successfully.
 
@@ -140,6 +127,10 @@ Example:
   "informers": [...]
 }
 ```
+
+## Error Handling
+
+The API uses standard HTTP status codes to indicate success or failure.
 
 ### 400 Bad Request
 The request contains invalid parameters.
